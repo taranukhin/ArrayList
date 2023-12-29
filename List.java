@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class List {
     public static void main(String[] args) {
-        double[] expenses = new double[10];
+        double[] expenses = new double[10];//обьявлен массив из 10 элементов
         ArrayList<String> studentNames = new ArrayList<>();
         studentNames.add("Serj");
         Scanner scanner = new Scanner(System.in);
@@ -15,10 +15,12 @@ public class List {
         studentNames.add("Natasha");
         studentNames.add("Marina");
         studentNames.add("Kira");
-        System.out.println(studentNames.size());
+        System.out.println(studentNames.size());//вывод размера списка в сообветсвии с его полнотой
+
         expenses[0] = 100;
         expenses[1] = 110;
-        System.out.println(expenses.length);
+        System.out.println(expenses.length); //водод размера массива не зависимо от его полноты
+
 
         ArrayList<Double> expanses = new ArrayList<>();
         expanses.add(120.45);
