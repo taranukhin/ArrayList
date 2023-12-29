@@ -14,7 +14,7 @@ public class List {
         studentNames.add("Lena");
         studentNames.add("Natasha");
         studentNames.add("Marina");
-        studentNames.add("Masha");
+        studentNames.add("Kira");
         System.out.println(studentNames.size());
         expenses[0] = 100;
         expenses[1] = 110;
